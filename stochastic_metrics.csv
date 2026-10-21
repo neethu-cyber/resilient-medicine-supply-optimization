@@ -1,6 +1,0 @@
-metric,value_eur
-"RP  (stochastic solution, expected cost)",15679.305192557205
-EEV (deterministic plan under uncertainty),18696.6699342902
-"WS  (wait-and-see, perfect information)",14297.403865237487
-VSS = EEV - RP (value of stochastic solution),3017.364741732994
-EVPI = RP - WS (value of perfect information),1381.901327319718
