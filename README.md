@@ -1,5 +1,16 @@
 # Resilient Medicine Supply Network – Stochastic & Robust Mixed-Integer Optimization
 
+## Why I built this
+
+While applying for a working student role in mathematical optimization, I read about
+Fraunhofer IIS's RELIEF-MED project on resilient medicine supply chains. I wanted
+to understand the problem better, so I built a smaller version: which warehouses
+should supply 15 hospitals when demand is uncertain and warehouses can fail?
+
+The main lesson for me was that planning for the average case is risky. The plan
+based on average demand ran short in almost half of all weeks. Planning with
+uncertainty in mind cost a little more for safety stock but avoided most shortages.
+
 Which warehouses should a medicine distributor operate, and how much stock should it pre-position
 in each, when hospital demand is uncertain and warehouses can be disrupted?
 
